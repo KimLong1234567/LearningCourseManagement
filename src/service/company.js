@@ -2,7 +2,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 const API_URL =
-  'http://192.168.18.78:8080/api/companies' ||
+  'http://192.168.18.115:8080/api/companies' ||
   'https://66ac95e0f009b9d5c732a553.mockapi.io/company';
 
 export const getCompany = async (token) => {

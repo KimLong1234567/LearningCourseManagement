@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://192.168.18.78:8080/api/roles';
+const API_URL = 'http://192.168.18.115:8080/api/roles';
 // Service để gọi các API liên quan đến Post
 export const createRole = async (role, token) => {
   console.log('Role Data Sent to Backend:', role);

@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://192.168.18.78:8080/api/courses';
+const API_URL = 'http://192.168.18.115:8080/api/courses';
 const API_URL_MOC = 'https://66bc665424da2de7ff6a5957.mockapi.io/courses';
 // 192.168.18.115
 const timeoutPromise = (ms) =>
