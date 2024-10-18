@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://192.168.18.78:8080/api/users';
+const API_URL = 'http://192.168.18.115:8080/api/users';
 //   'https://66bc665424da2de7ff6a5957.mockapi.io/student'
 // Service để gọi các API liên quan đến Post
 export const getAccount = async (token) => {

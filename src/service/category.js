@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://192.168.18.78:8080/api/categories';
+const API_URL = 'http://192.168.18.115:8080/api/categories';
 
 const API_URL_MOC = 'https://66c2ee55d057009ee9be61b9.mockapi.io/category';
 

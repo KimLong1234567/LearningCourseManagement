@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://192.168.18.78:8080/api/auth/login';
+const API_URL = 'http://192.168.18.115:8080/api/auth/login';
 const API_URL_reset = 'http://192.168.1.24:8080/api';
 
 export const login = async (account) => {
